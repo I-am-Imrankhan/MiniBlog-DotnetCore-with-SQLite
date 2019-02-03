@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{F4149D00-44A0-4F9A-87D7-CA4DBD0B555A}|Default">
   <MonoDevelop.Ide.ItemProperties.MiniBlogSQLServerDBExample PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MiniBlogSQLServerDBExample/Controllers/PostsController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MiniBlogSQLServerDBExample/Views/Posts/Details.cshtml">
     <Files>
       <File FileName="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" Line="108" Column="1" />
+      <File FileName="MiniBlogSQLServerDBExample/Views/Posts/Details.cshtml" Line="10" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
