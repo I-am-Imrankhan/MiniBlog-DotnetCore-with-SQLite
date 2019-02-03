@@ -1,0 +1,58 @@
+﻿@model IEnumerable<MiniBlogSQLServerDBExample.Models.Post>
+@{
+    ViewData["Title"] = "Post Page!";
+}
+
+<h1>@ViewData["Title"]</h1>
+<div id="Posts">
+    <p>
+        <a asp-action="Create" class="btn btn-success" btn->Create new Post</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PostDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AuthName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PostContent)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        </tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PostDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AuthName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PostContent)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Edit Post</a>
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Post Detail</a>
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete Post</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
