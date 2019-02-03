@@ -43,6 +43,17 @@ namespace MiniBlogSQLServerDBExample.Controllers
             return View(post);
         }
 
+        // Posta: Delete funktion (Post/Delete)
+        [HttpPost, ActionName("DeleteConfirmed")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var movie = await _context.Post.FindAsync(id);
+            _context.Post.Remove(movie);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
         // Get: Post/Edit
         // Hitta post rad med id
         public async Task<IActionResult> Edit(int? id)
