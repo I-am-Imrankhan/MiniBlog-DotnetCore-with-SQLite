@@ -23,5 +23,6 @@
     <Content Remove="Views\Home\Privacy.cshtml" />
     <Content Remove="Views\Movies\Create.cshtml" />
     <Content Remove="Views\Movies\Delete.cshtml" />
+    <Content Remove="Views\Posts\CreatenewPost.cshtml" />
   </ItemGroup>
 </Project>

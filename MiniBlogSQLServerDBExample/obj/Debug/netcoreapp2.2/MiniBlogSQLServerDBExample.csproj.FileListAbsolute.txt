@@ -45,7 +45,6 @@
 /Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/obj/Debug/netcoreapp2.2/MiniBlogSQLServerDBExample.TagHelpers.input.cache
 /Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/obj/Debug/netcoreapp2.2/MiniBlogSQLServerDBExample.TagHelpers.output.cache
 /Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/obj/Debug/netcoreapp2.2/MiniBlogSQLServerDBExample.RazorCoreGenerate.cache
-/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/obj/Debug/netcoreapp2.2/Razor/Views/Posts/CreatenewPost.g.cshtml.cs
 /Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/obj/Debug/netcoreapp2.2/Razor/Views/Posts/Details.g.cshtml.cs
 /Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/obj/Debug/netcoreapp2.2/Razor/Views/Posts/Edit.g.cshtml.cs
 /Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/obj/Debug/netcoreapp2.2/Razor/Views/Posts/Index.g.cshtml.cs
@@ -61,3 +60,4 @@
 /Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/obj/Debug/netcoreapp2.2/MiniBlogSQLServerDBExample.dll
 /Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/obj/Debug/netcoreapp2.2/MiniBlogSQLServerDBExample.pdb
 /Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/obj/Debug/netcoreapp2.2/MiniBlogSQLServerDBExample.csproj.CopyComplete
+/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/obj/Debug/netcoreapp2.2/Razor/Views/Posts/CreatePost.g.cshtml.cs

@@ -16,6 +16,7 @@
               integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" />
     </environment>
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/_Layout.css" />
 </head>
 <body>
     <header>
@@ -28,8 +29,11 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item active">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Posts" asp-action="CreatePost" id="tabButton">Create Post</a>
+                        </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Posts" asp-action="Index">Posts</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Posts" asp-action="Index" id="tabButton">Posts List</a>
                         </li>
                     </ul>
                 </div>

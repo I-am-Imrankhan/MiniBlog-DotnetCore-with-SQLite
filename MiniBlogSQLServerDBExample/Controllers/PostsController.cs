@@ -12,18 +12,44 @@ namespace MiniBlogSQLServerDBExample.Controllers
 {
     public class PostsController : Controller
     {
-        private readonly MvcPostContext _context;
+        private readonly MvcPostContext context;
 
         public PostsController(MvcPostContext context)
         {
-            _context = context;
+            this.context = context;
         }
 
         // GET: Posts
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Post.ToListAsync());
+            return View(await context.Post.ToListAsync());
         }
+
+
+        public IActionResult CreatePost()
+        {
+            return View("CreatePost");
+        }
+
+
+        //Put: Create new post method
+        public async Task<IActionResult> Create(Post post)
+        {
+            if(!ModelState.IsValid)
+            {
+                return View("Index", post);
+            }
+
+            context.Post.Add(post);
+            await context.SaveChangesAsync();
+
+            return RedirectToAction("Index");
+        }
+
+
+
+
+
 
         // GET: Posts/Details
         public async Task<IActionResult> Details(int? id)
@@ -33,7 +59,7 @@ namespace MiniBlogSQLServerDBExample.Controllers
                 return NotFound();
             }
 
-            var post = await _context.Post
+            var post = await context.Post
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (post == null)
             {
@@ -48,9 +74,9 @@ namespace MiniBlogSQLServerDBExample.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var movie = await _context.Post.FindAsync(id);
-            _context.Post.Remove(movie);
-            await _context.SaveChangesAsync();
+            var movie = await context.Post.FindAsync(id);
+            context.Post.Remove(movie);
+            await context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
@@ -62,7 +88,7 @@ namespace MiniBlogSQLServerDBExample.Controllers
             {
                 return NotFound();
             }
-            var post = await _context.Post.FindAsync(id);
+            var post = await context.Post.FindAsync(id);
             if (post == null)
             {
                 return NotFound();
@@ -84,8 +110,8 @@ namespace MiniBlogSQLServerDBExample.Controllers
             {
                 try
                 {
-                    _context.Update(post);
-                    await _context.SaveChangesAsync();
+                    context.Update(post);
+                    await context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {

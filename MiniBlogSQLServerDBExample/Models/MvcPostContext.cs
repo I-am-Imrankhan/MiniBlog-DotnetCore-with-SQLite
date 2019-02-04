@@ -13,5 +13,10 @@ namespace MiniBlogSQLServerDBExample.Models
         }
 
         public DbSet<MiniBlogSQLServerDBExample.Models.Post> Post { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }
