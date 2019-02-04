@@ -35,6 +35,13 @@ namespace MiniBlogSQLServerDBExample.Controllers
             return View("Login");
         }
 
+        // Skapa nya post
+        public IActionResult CreatePost()
+        {
+            return View("CreatePost");
+        }
+
+
         //Put: Create new post method
         public async Task<IActionResult> Create(Post post)
         {

@@ -1,16 +1,20 @@
 ﻿<Properties StartupConfiguration="{F4149D00-44A0-4F9A-87D7-CA4DBD0B555A}|Default">
   <MonoDevelop.Ide.ItemProperties.MiniBlogSQLServerDBExample PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MiniBlogSQLServerDBExample/Views/Posts/Login.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MiniBlogSQLServerDBExample/Controllers/PostsController.cs">
     <Files>
-      <File FileName="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" Line="35" Column="1" />
+      <File FileName="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" Line="34" Column="1" />
       <File FileName="MiniBlogSQLServerDBExample/Views/Shared/_Layout.cshtml" Line="39" Column="111" />
-      <File FileName="MiniBlogSQLServerDBExample/Views/Posts/Login.cshtml" Line="37" Column="31" />
+      <File FileName="MiniBlogSQLServerDBExample/Views/Posts/Login.cshtml" Line="31" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/Controllers/PostsController.cs" relfile="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" line="27" column="1" />
+      <Breakpoint file="/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/Controllers/PostsController.cs" relfile="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" line="33" column="1" />
+      <Breakpoint file="/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/Controllers/PostsController.cs" relfile="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" line="39" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

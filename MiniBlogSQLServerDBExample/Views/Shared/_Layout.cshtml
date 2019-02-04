@@ -20,7 +20,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-white bg-light border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-controller="Posts" asp-action="Index">MiniBog</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -28,14 +28,14 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item active">
+                    <ul class="navbar-nav d-flex">
+                        <li class="ml-0 nav-item active">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Posts" asp-action="CreatePost" id="tabButton">Create Post</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Posts" asp-action="Index" id="tabButton">Posts List</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="ml-auto nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Posts" asp-action="Login" id="tabButton">Login</a>
                         </li>
                     </ul>
