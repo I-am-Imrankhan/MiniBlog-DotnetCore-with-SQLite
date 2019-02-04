@@ -47,10 +47,6 @@ namespace MiniBlogSQLServerDBExample.Controllers
         }
 
 
-
-
-
-
         // GET: Posts/Details
         public async Task<IActionResult> Details(int? id)
         {
@@ -100,7 +96,7 @@ namespace MiniBlogSQLServerDBExample.Controllers
         // För att kunna undvika överposting vi ska göra binding 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID, Title, PostDate, AuthName, PostContent")] Post post)
+        public async Task<IActionResult> Edit(int id, [Bind("id, Title, PostDate, AuthName, PostContent")] Post post)
         {
             if (id != post.Id)
             {
@@ -115,15 +111,14 @@ namespace MiniBlogSQLServerDBExample.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-
-                    //if (!PostExisted(post.Id))
-                    //{
-                    //    return NotFound();
-                    //}
-                    //else
-                    //{
-                    //    throw;
-                    //}
+                    if (post.Id.Equals( true ))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
                 }
                 return RedirectToAction(nameof(Index));
             }

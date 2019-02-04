@@ -1,22 +1,28 @@
 ﻿<Properties StartupConfiguration="{F4149D00-44A0-4F9A-87D7-CA4DBD0B555A}|Default">
   <MonoDevelop.Ide.ItemProperties.MiniBlogSQLServerDBExample PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MiniBlogSQLServerDBExample/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MiniBlogSQLServerDBExample/Views/Posts/Edit.cshtml">
     <Files>
-      <File FileName="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" Line="31" Column="1" />
-      <File FileName="MiniBlogSQLServerDBExample/Views/Posts/Details.cshtml" Line="39" Column="98" />
-      <File FileName="MiniBlogSQLServerDBExample/Views/Posts/CreatePost.cshtml" Line="37" Column="104" />
-      <File FileName="MiniBlogSQLServerDBExample/Views/Posts/Index.cshtml" Line="8" Column="1" />
-      <File FileName="MiniBlogSQLServerDBExample/Views/Posts/Edit.cshtml" Line="8" Column="1" />
+      <File FileName="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" Line="105" Column="36" />
+      <File FileName="MiniBlogSQLServerDBExample/Views/Posts/Details.cshtml" Line="10" Column="11" />
+      <File FileName="MiniBlogSQLServerDBExample/Views/Posts/CreatePost.cshtml" Line="1" Column="1" />
+      <File FileName="MiniBlogSQLServerDBExample/Views/Posts/Index.cshtml" Line="1" Column="1" />
       <File FileName="MiniBlogSQLServerDBExample/Models/SeedData.cs" Line="1" Column="1" />
-      <File FileName="MiniBlogSQLServerDBExample/Program.cs" Line="35" Column="1" />
-      <File FileName="MiniBlogSQLServerDBExample/Views/Shared/_Layout.cshtml" Line="32" Column="53" />
-      <File FileName="MiniBlogSQLServerDBExample/wwwroot/js/_Layout.css" Line="3" Column="15" />
+      <File FileName="MiniBlogSQLServerDBExample/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="MiniBlogSQLServerDBExample/Models/Post.cs" Line="1" Column="1" />
+      <File FileName="MiniBlogSQLServerDBExample/Views/Posts/Edit.cshtml" Line="8" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/Controllers/PostsController.cs" relfile="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" line="116" column="1" />
+      <Breakpoint file="/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/Controllers/PostsController.cs" relfile="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" line="112" column="1" />
+      <Breakpoint file="/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/Controllers/PostsController.cs" relfile="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" line="105" column="1" />
+      <Breakpoint file="/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/Controllers/PostsController.cs" relfile="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" line="101" column="1" />
+      <Breakpoint file="/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/Controllers/PostsController.cs" relfile="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" line="110" column="1" />
+      <Breakpoint file="/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/Controllers/PostsController.cs" relfile="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" line="123" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
