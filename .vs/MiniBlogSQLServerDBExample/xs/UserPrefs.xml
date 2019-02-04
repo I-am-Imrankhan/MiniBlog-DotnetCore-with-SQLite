@@ -1,20 +1,19 @@
 ﻿<Properties StartupConfiguration="{F4149D00-44A0-4F9A-87D7-CA4DBD0B555A}|Default">
   <MonoDevelop.Ide.ItemProperties.MiniBlogSQLServerDBExample PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MiniBlogSQLServerDBExample/Views/Posts/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MiniBlogSQLServerDBExample/Controllers/PostsController.cs">
     <Files>
-      <File FileName="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" Line="10" Column="54" />
-      <File FileName="MiniBlogSQLServerDBExample/Views/Posts/Index.cshtml" Line="1" Column="4" />
+      <File FileName="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" Line="7" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/Controllers/PostsController.cs" relfile="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" line="117" column="1" />
-      <Breakpoint file="/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/Controllers/PostsController.cs" relfile="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" line="115" column="1" />
-      <Breakpoint file="/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/Controllers/PostsController.cs" relfile="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" line="111" column="1" />
       <Breakpoint file="/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/Controllers/PostsController.cs" relfile="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" line="120" column="1" />
-      <Breakpoint file="/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/Controllers/PostsController.cs" relfile="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" line="68" column="1" />
+      <Breakpoint file="/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/Controllers/PostsController.cs" relfile="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" line="118" column="1" />
+      <Breakpoint file="/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/Controllers/PostsController.cs" relfile="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" line="114" column="1" />
+      <Breakpoint file="/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/Controllers/PostsController.cs" relfile="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" line="123" column="1" />
+      <Breakpoint file="/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/Controllers/PostsController.cs" relfile="MiniBlogSQLServerDBExample/Controllers/PostsController.cs" line="71" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

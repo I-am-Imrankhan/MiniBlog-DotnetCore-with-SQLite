@@ -1,13 +1,13 @@
-﻿@model IEnumerable<MiniBlogSQLServerDBExample.Models.Post>
+﻿
+@model IEnumerable<MiniBlogSQLServerDBExample.Models.Post>
 @{
     ViewData["Title"] = "Post Page!";
 }
 
 <h1>@ViewData["Title"]</h1>
+<br />
+<br />
 <div id="Posts">
-    <p>
-        <a asp-action="Delete" class="btn btn-success" btn->Create new Post</a>
-    </p>
     <table class="table">
         <thead>
             <tr>
