@@ -6,7 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MiniBlogSQLServerDBExample.Models;
 
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+// Jag har implementerat alla CRUD funktioner här i PostController istället för att skapa en annan klass till Database Funktioner
+// Jag har lagt till Updateringen funktion för övning
 
 namespace MiniBlogSQLServerDBExample.Controllers
 {
@@ -20,6 +21,9 @@ namespace MiniBlogSQLServerDBExample.Controllers
         }
 
         // GET: Posts
+        // Första sidan filla på med allt från databasen
+        // Index.cshtml: lägnst upp i filen finns IEnurrable Interface som är typ en lista 
+        // och gör en collection av specifika typ. T.ex. post model
         public async Task<IActionResult> Index()
         {
             return View(await context.Post.ToListAsync());
@@ -65,16 +69,6 @@ namespace MiniBlogSQLServerDBExample.Controllers
             return View(post);
         }
 
-        // Posta: Delete funktion (Post/Delete)
-        [HttpPost, ActionName("DeleteConfirmed")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var movie = await context.Post.FindAsync(id);
-            context.Post.Remove(movie);
-            await context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
 
         // Get: Post/Edit
         // Hitta post rad med id
@@ -92,11 +86,20 @@ namespace MiniBlogSQLServerDBExample.Controllers
             return View(post);
         }
 
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if( id==null) { return NotFound(); }
+            var post = await context.Post.FindAsync(id);
+            context.Post.RemoveRange(post);
+            await context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
         // Posta: Post/Edit (OBS! Edit metod kan återopa med hjälp av Post request
         // För att kunna undvika överposting vi ska göra binding 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id, Title, PostDate, AuthName, PostContent")] Post post)
+        public async Task<IActionResult> Edit(int id, [Bind("Id, Title, PostDate, AuthName, PostContent")] Post post)
         {
             if (id != post.Id)
             {
