@@ -29,12 +29,11 @@ namespace MiniBlogSQLServerDBExample.Controllers
             return View(await context.Post.ToListAsync());
         }
 
-
-        public IActionResult CreatePost()
+        // Login 
+        public IActionResult Login()
         {
-            return View("CreatePost");
+            return View("Login");
         }
-
 
         //Put: Create new post method
         public async Task<IActionResult> Create(Post post)

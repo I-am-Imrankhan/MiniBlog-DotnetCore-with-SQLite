@@ -61,3 +61,4 @@
 /Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/obj/Debug/netcoreapp2.2/MiniBlogSQLServerDBExample.pdb
 /Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/obj/Debug/netcoreapp2.2/MiniBlogSQLServerDBExample.csproj.CopyComplete
 /Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/obj/Debug/netcoreapp2.2/Razor/Views/Posts/CreatePost.g.cshtml.cs
+/Users/xpressionsless/Documents/Github/MiniBlog-DotnetCore-with-SQLite/MiniBlogSQLServerDBExample/obj/Debug/netcoreapp2.2/Razor/Views/Posts/Login.g.cshtml.cs
